@@ -22,9 +22,11 @@ def main() -> None:
         Trains the model and writes checkpoints.
     """
 
-    parser = argparse.ArgumentParser(description="Train minimal cross-embodiment hand latent model.")
-    parser.add_argument("--num_steps", type=int, default=10_000)
-    parser.add_argument("--checkpoint_interval", type=int, default=500)
+    parser = argparse.ArgumentParser(
+        description="Train minimal cross-embodiment hand latent model."
+    )
+    parser.add_argument("--num_steps", type=int, default=5_000)
+    parser.add_argument("--checkpoint_interval", type=int, default=1000)
     parser.add_argument("--batch_size", type=int, default=1024)
     parser.add_argument("--learning_rate", type=float, default=2e-3)
     parser.add_argument("--pinch_template_count", type=int, default=2048)
