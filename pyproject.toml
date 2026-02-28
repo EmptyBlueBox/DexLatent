@@ -1,0 +1,19 @@
+[project]
+name = "hand-latent"
+version = "0.1.0"
+description = "Minimal xarm latent training and inference"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pin-pink>=3.4.0",
+    "osqp>=1.0.4",
+    "qpsolvers>=4.8.1",
+    "rerun-loader-urdf",
+    "rerun-sdk>=0.25.1",
+    "scipy>=1.10.0",
+    "torch>=2.8.0",
+    "urdf-parser-py>=0.0.4",
+]
+
+[tool.uv.sources]
+rerun-loader-urdf = { git = "https://github.com/rerun-io/rerun-loader-python-example-urdf.git" }
