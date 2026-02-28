@@ -13,7 +13,7 @@ from pink import Configuration, solve_ik
 from pink.tasks import FrameTask
 from qpsolvers import available_solvers
 
-from hand_latent.kinematics import ASSETS_DIR, HAND_CONFIGS, HandKinematicsModel
+from HandLatent.kinematics import ASSETS_DIR, HAND_CONFIGS, HandKinematicsModel
 
 PINK_DT: float = 0.1
 PINK_ARM_WEIGHT_EXPONENT: float = 1.5

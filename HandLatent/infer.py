@@ -12,15 +12,15 @@ import rerun as rr
 import torch
 from scipy.spatial.transform import Rotation as scipy_rotation
 
-from hand_latent.ik import pink_align_arm
-from hand_latent.model import (
+from HandLatent.ik import pink_align_arm
+from HandLatent.model import (
     CrossEmbodimentTrainer,
     TrainerCacheState,
     TrainingConfig,
     clone_default_arm_cache_pose,
     compute_pinch_loss,
 )
-from hand_latent.visualize import visualize_hand_motion
+from HandLatent.visualize import visualize_hand_motion
 
 
 @dataclass

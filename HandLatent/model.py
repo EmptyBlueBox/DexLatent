@@ -12,7 +12,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from hand_latent.kinematics import MultiHandDifferentiableFK, solve_inverse_kinematics
+from HandLatent.kinematics import MultiHandDifferentiableFK, solve_inverse_kinematics
 
 PINCH_PAIR_DEFAULTS: Tuple[Tuple[int, int], ...] = ((0, 1), (0, 2), (0, 3), (0, 4))
 DEFAULT_ARM_CACHE_POSE: torch.Tensor = torch.tensor(

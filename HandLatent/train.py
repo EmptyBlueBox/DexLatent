@@ -6,7 +6,7 @@ import argparse
 
 import torch
 
-from hand_latent.model import CrossEmbodimentTrainer, TrainingConfig
+from HandLatent.model import CrossEmbodimentTrainer, TrainingConfig
 
 
 def main() -> None:

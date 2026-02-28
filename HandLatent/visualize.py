@@ -10,7 +10,7 @@ import rerun as rr
 from scipy.spatial.transform import Rotation
 from urdf_parser_py import urdf as urdf_parser
 
-from hand_latent.kinematics import ASSETS_DIR, HAND_CONFIGS, load_urdf_silent
+from HandLatent.kinematics import ASSETS_DIR, HAND_CONFIGS, load_urdf_silent
 
 TIMELINE_NAME: str = "step"
 FRAME_SLEEP_SECONDS: float = 0.02

@@ -1,5 +1,4 @@
 .DS_Store
-Dataset/
 Checkpoints
 *.pyc
 *.sh

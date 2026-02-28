@@ -13,7 +13,7 @@ uv sync
 Run the training script with:
 
 ```bash
-uv run -m hand_latent.train --num_steps 5000 --checkpoint_interval 1000
+uv run -m HandLatent.train --num_steps 5000 --checkpoint_interval 1000
 ```
 
 Checkpoints are written to:
@@ -30,5 +30,5 @@ By default, inference reads `Dataset/demo.npz` and visualizes:
 Run with a specific checkpoint:
 
 ```bash
-uv run -m hand_latent.infer --ckpt Checkpoints/<timestamp>/checkpoint_epoch_XXXX.pt
+uv run -m HandLatent.infer --ckpt Checkpoints/<timestamp>/checkpoint_epoch_XXXX.pt
 ```
