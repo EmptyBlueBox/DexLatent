@@ -1,13 +1,6 @@
-# HandLatent
+# DexLatent
 
-Hand latent representation implementation of the paper "Cross-Hand Latent Representation for Vision-Language-Action Models"
-
-## Supported Hands
-
-- `xarm7_xhand_left` / `xarm7_xhand_right`
-- `xarm7_ability_left` / `xarm7_ability_right`
-- `xarm7_inspire_left` / `xarm7_inspire_right`
-- `xarm7_paxini_left` / `xarm7_paxini_right`
+DexLatent implementation of the paper "Cross-Hand Latent Representation for Vision-Language-Action Models"
 
 ## Install
 
