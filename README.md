@@ -1,8 +1,14 @@
 # DexLatent
 
-DexLatent official implementation of the paper [XL-VLA (CVPR 2026)](https://xl-vla.github.io)
+Official implementation of DexLatent for the paper **XL-VLA: Cross-Hand Latent Representation for Vision-Language-Action Models** (CVPR 2026 Highlight ✨).
 
 ![teaser](Assets/videos/teaser.gif)
+
+## News!
+
+- [x] `2026.04.08`: Selected as a CVPR 2026 Highlight ✨.
+- [x] `2026.02.27`: Released code and [project website](https://xl-vla.github.io).
+- [x] `2026.02.22`: Accepted to CVPR 2026.
 
 ## Inference and Visualization
 
